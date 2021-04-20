@@ -5,11 +5,11 @@ module.exports = {
     utilisation: '{prefix}filter [filter name]',
 
     execute(client, message, args) {
-        if (!message.member.voice.channel) return message.channel.send(`${client.emotes.error} - You're not in a voice channel !`);
+        if (!message.member.voice.channel) return message.channel.send(`${client.emotes.error} - Please join a voice channel to enjoy the music!`);
 
-        if (message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send(`${client.emotes.error} - You are not in the same voice channel !`);
+        if (message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send(`${client.emotes.error} - I am already in a voice channel kindly join that one!`);
 
-        if (!client.player.getQueue(message)) return message.channel.send(`${client.emotes.error} - No music currently playing !`);
+        if (!client.player.getQueue(message)) return message.channel.send(`${client.emotes.error} - No music being played!`);
 
         if (!args[0]) return message.channel.send(`${client.emotes.error} - Please specify a valid filter to enable or disable !`);
 
@@ -23,7 +23,7 @@ module.exports = {
 
         client.player.setFilters(message, filtersUpdated);
 
-        if (filtersUpdated[filterToUpdate]) message.channel.send(`${client.emotes.music} - I'm **adding** the filter to the music, please wait... Note : the longer the music is, the longer this will take.`);
-        else message.channel.send(`${client.emotes.music} - I'm **disabling** the filter on the music, please wait... Note : the longer the music is playing, the longer this will take.`);
+        if (filtersUpdated[filterToUpdate]) message.channel.send(`${client.emotes.music} - **Adding** filter to music, please wait... __Note__ : the longer the music is, the longer this will take.`);
+        else message.channel.send(`${client.emotes.music} - **Disabling** filter on music, please wait... __Note__ : the longer the music is playing, the longer this will take.`);
     },
 };

@@ -3,8 +3,8 @@
   "main": "index.js",
   "author": "Vignesh",
   "version": "1.0.0",
-  "repository": "https://github.com/ZerioDev/Music-bot.git",
-  "description": "A complete code to download for a music bot. Using a module (discord-player).",
+  "repository": "https://github.com",
+  "description": "Using a module (discord-player).",
   "scripts": {
     "start": "node index.js"
   },

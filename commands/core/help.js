@@ -1,8 +1,8 @@
 module.exports = {
-    name: 'help',
-    aliases: ['h'],
+    name: 'music help',
+    aliases: ['help music'],
     category: 'Core',
-    utilisation: '{prefix}help <command name>',
+    utilisation: '{prefix} <command name>',
 
     execute(client, message, args) {
         if (!args[0]) {
@@ -12,8 +12,8 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help pannel' },
-                    footer: { text: 'This bot uses a Github project made by Zerio (ZerioDev/Music-bot)' },
+                    author: { name: 'Asteroid Music' },
+                    footer: { text: 'Please Report bugs to Support Server' },
                     fields: [
                         { name: 'Bot', value: infos },
                         { name: 'Music', value: music },
@@ -31,8 +31,8 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help pannel' },
-                    footer: { text: 'This bot uses a Github project made by Zerio (ZerioDev/Music-bot)' },
+                    author: { name: 'Asteroid Music' },
+                    footer: { text: 'Please Report bugs to Support Server' },
                     fields: [
                         { name: 'Name', value: command.name, inline: true },
                         { name: 'Category', value: command.category, inline: true },
