@@ -5,7 +5,7 @@ module.exports={
   name: "radio",
   category: "Radio",
   alias:["rad"],
-  run: async(client , message, args)=>{
+  execute: async(client , message, args)=>{
         const { channel } = message.member.voice;
 
         if (!channel) return message.reply("You need to join a voice channel first!").catch(console.error);
