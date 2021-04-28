@@ -15,7 +15,7 @@ module.exports={
         const emb = new Discord.MessageEmbed()
             emb.setTitle(radio)
             emb.setColor('RANDOM')
-            emb.setImage('https://s8.gifyu.com/images/giphy582f10e0bc9a8822.gif')
+            emb.setImage('https://s3.gifyu.com/images/songplaying.gif')
             emb.setDescription('Started playing'+ radio)
             emb.setFooter('Loney V3.5')
             try{
