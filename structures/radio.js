@@ -17,10 +17,10 @@ module.exports={
             emb.setColor('RANDOM')
             emb.setImage('https://s8.gifyu.com/images/giphy582f10e0bc9a8822.gif')
             emb.setDescription('Started playing'+ radio)
-            emb.setFooter('Please Report Bugs to Support Server')
+            emb.setFooter('Loney V3.5')
             try{
           var playingMessage =  await message.channel.send(emb);
-       await playingMessage.react("??");
+       await playingMessage.react(":stop_button:");
     
     } catch (error) {
       console.error(error);
@@ -33,7 +33,7 @@ module.exports={
       const member = message.guild.member(user);
 
       switch (reaction.emoji.name) {
-        case "??":
+        case ":stop_button:":
         VC.leave()
         playingMessage.reactions.removeAll().catch(console.error);
       playingMessage.delete({ timeout: 3000 }).catch(console.error);
