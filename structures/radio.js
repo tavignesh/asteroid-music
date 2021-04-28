@@ -17,7 +17,7 @@ module.exports={
             emb.setColor('RANDOM')
             emb.setImage('https://s8.gifyu.com/images/giphy582f10e0bc9a8822.gif')
             emb.setDescription('Started playing'+ radio)
-            emb.setFooter('Loney V3.5')
+            emb.setFooter('Please Report Bugs to Support Server')
             try{
           var playingMessage =  await message.channel.send(emb);
        await playingMessage.react("??");
