@@ -182,5 +182,13 @@ async def on_message(message):
                 serverstr = f"{serverstr}\n{serverlst[i]}"
             await message.channel.send(embed=discord.Embed(title="Server List", description=f"{serverstr}" , color=0x01FD59))
 
+    if message.content == ("am/") or message.content == ("am/ "):
+        await message.channel.send(embed=discord.Embed(title="Yes? , How May i Help You?", description=("Use `am/ help` for More!"), color=0x04FD03))
+        await message.add_reaction("<a:ag_flyn_hrts_cyn:781395468978356235>")
+    
+    if message.content == "<@!836830093644791809>":
+        await message.add_reaction("<a:ag_flyn_hrts_cyn:781395468978356235>")
+        await message.channel.send(embed=discord.Embed(description="My prefix is `am/`", color=0x04FD03))
+
 
 client.run(toktok)
