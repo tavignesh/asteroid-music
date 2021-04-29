@@ -22,7 +22,7 @@ async def on_ready():
         print("no token specified")
     else:
         # game = discord.Game("With 『AG』》Vigne$hᴰᵉᵛ#8351 am/ help")
-        game = discord.Game("Singing Songs in lots of Servers!")
+        game = discord.Game("and Singing Songs in a lot of Servers!")
         await client.change_presence(status=discord.Status.idle, activity=game)
         # await client.change_presence(status=discord.Status.online, activity=game)
         # await client.change_presence(status=discord.Status.invisible, activity=game)
