@@ -1,0 +1,8 @@
+discord.py[voice]
+pynacl
+asyncio
+psutil
+requests
+datetime
+dnspython
+uptime
