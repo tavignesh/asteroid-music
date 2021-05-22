@@ -11,7 +11,7 @@ import math
 
 client = discord.Client()
 
-toktok = "ODM2ODMwMDkzNjQ0NzkxODA5.YIjswQ.NR1EWAtugvWuAZgH4qYlv2EL2IU"
+toktok = "ODM2ODMwMDkzNjQ0NzkxODA5.YIjswQ.kBRoAp1xdvvbkoS8VaI3lTdzQhA"
 
 invitembd = discord.Embed(title=" <a:ag_reddot:781410740619051008> **Usefull Links** <a:ag_reddot:781410740619051008> \n▬▬▬▬▬▬▬▬▬▬", description="<a:ag_arrowgif:781395494127271947> [Invite Asteroid Music](https://discord.com/oauth2/authorize?client_id=836830093644791809&scope=bot&permissions=37080400) :notes: \n<a:ag_arrowgif:781395494127271947> [Invite Asteroid](https://discord.com/oauth2/authorize?client_id=780472070072696852&scope=bot&permissions=809500159)  <a:ag_tickop:781395575962599445> \n<a:ag_arrowgif:781395494127271947> [Vote Asteroid](https://top.gg/bot/780472070072696852/vote)\n<a:ag_arrowgif:781395494127271947> [Support Server](https://discord.gg/teszgSR9yK) <a:ag_discord:781395597277134869>\n<a:ag_arrowgif:781395494127271947> [Asteroid Gaming](https://discord.gg/CjKRmV7ptm) <a:ag_discord:781395597277134869>", color=0x13FD03)
 
