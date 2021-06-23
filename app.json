@@ -1,0 +1,7 @@
+{
+  "name": "Asteroid Music",
+  "description": "🤖 Discord Music Bot built with discord.js",
+  "repository": "https://github.com/tavignesh/asteroid-music",
+  "logo": "https://tavignesh.github.io/imhost/t23.jpg",
+  "keywords": ["discord", "discordjs", "music", "bot"]
+}
