@@ -1,1 +1,1 @@
-Coooool Asteroid Musicbot's source code!
+A discord music bot named Asteroid.
